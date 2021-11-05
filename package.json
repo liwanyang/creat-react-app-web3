@@ -1,6 +1,8 @@
 {
-  "name": "bridge-app",
+  "name": "creat-react-app-web3",
   "version": "0.1.0",
+  "description":"{{description}}",
+  "author":"{{author}}",
   "private": true,
   "dependencies": {
     "@ethersproject/contracts": "^5.4.0",
