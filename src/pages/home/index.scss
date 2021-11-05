@@ -1,0 +1,10 @@
+@import '~antd/dist/antd.css';
+body {
+  -webkit-tap-height-color:transprent;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.Home {
+  @media screen and(max-width: '600px'){
+    font-size: 12px !important;
+  }
+}

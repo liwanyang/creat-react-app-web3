@@ -1,0 +1,191 @@
+{
+  "id": "2258019",
+  "name": "pc-dpcp",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-dpcp-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "18943856",
+      "name": "woderenwu-weixuan",
+      "font_class": "woderenwu-weixuan1",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "18943221",
+      "name": "woderenwu-weixuan",
+      "font_class": "woderenwu-weixuan",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "9358667",
+      "name": "ellipsis",
+      "font_class": "ellipsis",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "18795434",
+      "name": "gengxin_datu",
+      "font_class": "gengxin_datu",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "14203312",
+      "name": "配置人员-正常",
+      "font_class": "peizhirenyuan-zhengchang1",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "18749912",
+      "name": "icon_close",
+      "font_class": "icon_close",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "18715637",
+      "name": "tuihui",
+      "font_class": "tuihui1",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "18715641",
+      "name": "yiluru",
+      "font_class": "yiluru1",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "18715122",
+      "name": "paixu_down",
+      "font_class": "paixu_down",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "18715123",
+      "name": "guanbi",
+      "font_class": "guanbi",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "18715124",
+      "name": "renyuan",
+      "font_class": "renyuan",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "18715125",
+      "name": "chongzhi",
+      "font_class": "chongzhi",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "18715126",
+      "name": "renwu_press",
+      "font_class": "renwu_press",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "18715127",
+      "name": "jiantou_write",
+      "font_class": "jiantou_write",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "18715128",
+      "name": "shoushizhe",
+      "font_class": "shoushizhe",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "18715129",
+      "name": "tupian_press",
+      "font_class": "tupian_press",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "17330071",
+      "name": "倒计时-高亮",
+      "font_class": "daojishi-gaoliang",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "17330072",
+      "name": "放大",
+      "font_class": "fangda",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "17330074",
+      "name": "任务广场-未选",
+      "font_class": "renwuguangchang-weixuan",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "17330077",
+      "name": "时间",
+      "font_class": "shijian",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "17330080",
+      "name": "Check-Circle-tongguo",
+      "font_class": "Check-Circle-tongguo",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "17330081",
+      "name": "arrow_down",
+      "font_class": "arrow_down",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "17330082",
+      "name": "Check-Circle-tuihui",
+      "font_class": "Check-Circle-tuihui",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "17330083",
+      "name": "info-circle-fill",
+      "font_class": "info-circle-fill",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "17330084",
+      "name": "close",
+      "font_class": "close",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "17353091",
+      "name": "tianjia-01",
+      "font_class": "tianjia-01",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    }
+  ]
+}

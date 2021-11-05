@@ -1,0 +1,85 @@
+{
+  "name": "bridge-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ethersproject/contracts": "^5.4.0",
+    "@ethersproject/providers": "^5.4.1",
+    "@harmony-js/core": "^0.1.57",
+    "@metamask/detect-provider": "^1.2.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/lodash": "^4.14.171",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/styled-components": "^5.1.11",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "antd": "^4.16.7",
+    "async-validator": "^3.5.2",
+    "bignumber.js": "^9.0.1",
+    "bn.js": "^5.2.0",
+    "classnames": "^2.3.1",
+    "connected-react-router": "4.5.0",
+    "core-decorators": "^0.20.0",
+    "dva": "^2.4.1",
+    "ethers": "^5.4.1",
+    "grommet": "^2.17.3",
+    "i18next": "^20.4.0",
+    "i18next-browser-languagedetector": "^6.1.2",
+    "i18next-xhr-backend": "^3.2.2",
+    "isexe": "^2.0.0",
+    "jsbi": "^3.1.5",
+    "localforage": "^1.10.0",
+    "lodash": "^4.17.21",
+    "node-sass": "^6.0.1",
+    "polished": "^4.1.3",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.11.4",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "5.0.0",
+    "react-scripts": "4.0.3",
+    "react-select": "^4.3.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.0",
+    "sass-loader": "^12.1.0",
+    "store2": "^2.12.0",
+    "styled-components": "^5.3.0",
+    "superagent": "^6.1.0",
+    "typescript": "^4.1.2",
+    "use-query-params": "^1.2.3",
+    "web-vitals": "^1.0.1",
+    "web3": "^1.4.0"
+  },
+  "scripts": {
+    "start": "set port=3030 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

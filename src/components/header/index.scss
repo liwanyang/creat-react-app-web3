@@ -1,0 +1,48 @@
+  .headers {
+    padding: 1rem 20px;
+    background: #070A0E;
+    min-height: 80px;
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1350px;
+      margin: auto;
+    }
+    img.logo {
+      width: 127px;
+      height: 27px;
+    }
+    .account-info {
+      display: flex;
+      align-items: center;
+      img {
+        width: 15px;
+        height: 15px;
+        margin-left: 10px;
+      }
+      &>div {
+        background: #141E27;
+        border-radius: 3px;
+        padding: 0.43rem 0.665rem;
+        display: flex;
+        align-items: center;
+        letter-spacing: 1px;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: none;
+        display: inline-block;
+        color: #ffffff;
+        margin: 0 10px;
+      }
+      .blance {
+        cursor: pointer;
+      }
+    }
+    @media screen and(max-width: '600px'){
+      font-size: 12px !important;
+      .account {
+        display: none !important;
+      }
+    }
+  }
