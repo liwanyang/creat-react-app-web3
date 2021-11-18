@@ -108,11 +108,10 @@ function useWalletBalance({
               .catch(() => NO_BALANCE)
           },
           onResult(balance: Balance) {
-            // console.log('balance:::', balance);
-            
-            if (!cancel && balance !== lastBalance) {
-              lastBalance = balance
-              onUpdate(divDecimals(balance as string, 18).toString())
+            const balances = divDecimals(balance as string, 18).toString()
+            if (!cancel && balances !== lastBalance.toString()) {
+              lastBalance = balances
+              onUpdate(balances)
             }
           },
         }
@@ -126,7 +125,6 @@ function useWalletBalance({
     return () => {
       cancel = true
       stopPollingBalance()
-      setBalance(NO_BALANCE)
     }
   }, [account, ethereum, pollBalanceInterval])
 
@@ -171,9 +169,10 @@ export function useWalletBalancex({
               .catch(() => NO_BALANCE)
           },
           onResult(balance: Balance) {
-            if (!cancel && balance !== lastBalance) {
-              lastBalance = balance
-              onUpdate(divDecimals(balance as string, contractToken?.decimals!).toString())
+            const balances = divDecimals(balance as string, contractToken?.decimals!).toString()
+            if (!cancel && balances !== lastBalance.toString()) {
+              lastBalance = balances
+              onUpdate(balances)
             }
           },
         }
@@ -188,7 +187,6 @@ export function useWalletBalancex({
     return () => {
       cancel = true
       stopPollingBalance()
-      setBalance(NO_BALANCE)
     }
   }, [account, chainId, contractToken, library, pollBalanceInterval])
 
